@@ -1,6 +1,11 @@
 # RandomMapBombGame
 
-
-b to place bomb
+Controls:
+     b: place bomb
+     
+     <br>
+     
 page reload regenerates map
+
+
 
