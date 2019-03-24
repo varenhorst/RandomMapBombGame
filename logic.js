@@ -1,6 +1,8 @@
+//Rough code. Need to overhaul.
+
 $(document).ready(function() {
 
- 	var fieldHeight = $('.field').height();
+  var fieldHeight = $('.field').height();
   var fieldWidth = $('.field').width();
   buildGrid(fieldHeight,fieldWidth);
   setUpCharacterControls();
@@ -11,7 +13,7 @@ $(document).ready(function() {
 
 
 function buildGrid(height,width){
-	var array = generateArray();
+  var array = generateArray();
   var imageUrl = 'https://opengameart.org/sites/default/files/oga-textures/71276/bricks.png'
   var imageUrl1 = 'https://sesome.co.uk/wp-content/uploads/2017/02/hey-meme.jpg';
   var classArray = [];
@@ -50,7 +52,7 @@ function buildGrid(height,width){
 
 function generateArray(){
 	//finding endpoints at every 5 nodes
-	var numberOfNodes = 450; // dependent on height and width of container. Need solution
+  var numberOfNodes = 450; // dependent on height and width of container. Need solution
   var gridArray = [];
   var intersectArray = []; // for testing *
   var randomComplexity = Math.ceil(Math.random()*12);
