@@ -2,7 +2,7 @@
 
 **Controls:**  
      b: place bomb  
-     space: Shoot
+     space: Shoot  
      move: arrow-keys  
      
 page reload regenerates map  
